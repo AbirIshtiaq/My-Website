@@ -1,0 +1,85 @@
+.c-site-header{
+  text-align:center;
+  background-color:#5EA15F;
+  padding:20px;
+  position:absolute;
+  font-size: 30px;
+  font-family: sans-serif;
+  
+}
+
+.c-site-main{
+  text-align: center;
+  padding:1px;
+  height:260%;
+  top:350px;
+  
+}
+
+.c-site-footer{
+  background-color: #5EA15F;
+  padding:1px;
+  height:60px;
+  
+}
+
+nav ul {
+    display: table; 
+    margin: 0 auto;
+}
+
+nav li{
+  display: inline;
+  margin: 10px;
+  background-color: white;
+  
+}
+
+
+#image{
+ position:relative;
+  top:70px;
+ 
+}
+
+#video{
+  position: relative;
+  top: 70px;
+}
+
+#navbar{
+  position:fixed;
+  width: 100%;
+  padding:2px;
+}
+
+#me{
+  position: relative;
+  top:500px;
+}
+
+p{
+  font-family:cursive;
+  font-size: 25px;
+}
+
+
+
+/* =================
+   Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors {
+  display: none;
+}

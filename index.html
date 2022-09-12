@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Step 4.1. Codepen: Improve your Personal Home Page</title>
+  <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- =================
+  <!DOCTYPE html>
+
+<!--#################-What I have changed--###############-->
+
+<!--In an attempt to make my website more modern, I have updated the header so that it is now locked to the browser screen as the page visior scrolls down. I have also added the navigation links to the header element. There are accessibility advantages to doing this. If the visitor has dementia, and they forget what page they're on, they will be able to see that they are on 'Abir's Personal Webpage'. Also, if the user wants ease of access to go straight down to the text, they can click 'About me' without having to scroll down. I have also given the font of the text in my header a more modern font.
+
+I have added an alt attribute for the image.
+
+To increase the contrast of the text in the main element, I have used the <b> tag. I have also increased the font-size and I have changed the font style.
+
+I have made an attempt to remove obsolete tags, such as <p></p> tags without any content within the elements. I have also indented some more of my code to make it more readable.
+
+---->
+
+
+
+
+
+
+
+<!--##################---HEADER---#######################--->
+<header style="color: white" class="c-site-header" id="navbar"> 
+ <div>
+  <h1 style="font-size: 40px;"> Welcome to Abir's Personal Webpage</h1>
+   <nav aria-label="Main Site Links.">     
+    <ul>
+     <li><a href="#image"> Isaac Newton's tree</a> </li>                              <!--nav links-->
+     <li><a href="#video">How trees secretly talk to each other</a></li> 
+     <li><a href="#AboutMe">About me</a></li>
+    </ul>
+   </nav>
+ </div>
+</header>
+<!---####################################################-->
+
+<!--#####################--MAIN--####################--->
+
+
+
+<main class="c-site-main">
+ <section id="image">
+  <img id="image" width="560" height="315" src="https://nt.global.ssl.fastly.net/images/1431836162042-appletreeblossomlateaprilrsze.jpg" alt="Picture of the tree that Isaac Newton sat under"> <!--isaac newton  tree-->
+  </img> <!--alt added-->
+ </section>
+ <section id="video">
+  <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/yWOqeyPIVRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- tree networks video-->
+ </section>
+
+
+<h2 id="AboutMe" class="AboutMe" style="color:black">
+  About me
+</h2>
+
+<article id="me"> <!--Semantic HTML changed from section to article-->
+ <p>
+   Welcome and thank you for visiting my very first home page built in HTML/CSS. I am Abir Ishtiaq and I would like to use this opportunity to properly introduce myself and to tell you what my motivations are for applying to this CodeYourFuture programme.
+</p>
+ <p>
+  I like running; when I get the opportunity, I like to attend weekly 5km Parkruns. I also like cooking dishes from all over the world, after researching them online. 
+I am interested in software development because it is a field which involves continuous learning. I find that I am happiest when I am always learning new things and I must update my knowledge in order to keep up with the latest advancements in any field. I find that I am more joyful when I have learned something that was very challenging to grasp, and I am sure that I have made the right choice in aspiring to become a software developer, since my brain will be challenged all the time!
+ </p>
+  <p>
+   I look forward to being able to learn Javascript in more depth in this programme, as well as languages and libraries which are completely new to me, such as SQL, Node.js and React.  The reason for my desire to learn these skills is that I am fascinated by how modern webpages are very advanced in how they function, and I hope to move beyond a beginner level and create a professional website from scratch.
+  </p>
+    <p>
+On this home page I have chosen to include a picture of a tree. The picture is not one of just any tree, it is the tree that Isaac Newton is alleged to have sat under when the apple dropped and caused him to investigate the science and mathematics of gravity. The reason I have chosen to include this tree on my home page is that it inspired Isaac Newton to investigate a topic that he knew very little about in the first place; the fact that he was new to the topic did not scare him away from developing his own knowledge about it. Similarly, while I am no Isaac Newton, I am not scared of learning about a topic that I have very little experience in. Additionally, learning can be compared to the growth of a tree; a tree growing from a sapling to an adult does not take one day, it takes years for this to take place. In my path to becoming a software developer, I expect to make incremental spurts in my knowledge every day which builds up over a long period of time, before I can become a more confident programmer – and even when I do reach this stage, the learning never stops. 
+   </p>
+  <p>
+I have also chosen to include a video on how trees share nutrients with each other in order to grow, using a network of roots. This reminds me of the fact that learning is at its most effective when people cooperate with each other and share knowledge, which is another major reason why I have chosen CodeYourFuture, because the nature of the programme makes it easier for learners to collaborate with each other. 
+  </p>
+</article>
+</main>
+<!--########################################-->
+
+
+
+
+<footer style="color:white" class=c-site-footer>
+  <p style="font-size:25px;">
+    Created by Abir Ishtiaq
+  </p>
+</footer>
+
+<!-- Your test console.
+Don't delete!-->
+<aside id="tests" aria-label="Test Readout." aria-live="polite" style="overflow:auto">
+</aside>
+
+<!--###########################->
+
+You only need to write the HTML that goes inside the <body> tag. To add things to the <head>, click the ⚙️ 
+   ===================
+-->
+
+<!--- All the tests are red! You have to make them green. 
+
+Q How do you make the tests pass?
+A Meet the requirements!
+
+Make the first test pass by adding a <header> </header>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Your test console.
+Don't delete!-->
+<aside id="tests" aria-label="Test Readout." aria-live="polite" style="overflow:auto">
+</aside>
+<!-- partial -->
+  <script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js'></script>
+<script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
